@@ -1,1 +1,2 @@
-Portfolio
+### PWA 
+- Enabled offline chaching
