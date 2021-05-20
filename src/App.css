@@ -4,48 +4,5 @@
     width: 100%;
     position: absolute;
 }
-.mac_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.table {
-    background-image: url('./assets/images/table.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 571px;
-    width: 700px;
-}
-.mac_image {
-    background-image: url('./assets/images/macbook.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 571px;
-    width: 700px;
-}
-.terminal {
-    background: white;
-    height: 63%;
-    width: 92%;
-    top: 29px;
-    left: 28px;
-    position: relative;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.text_load {
-    position: relative;
-    font-size: 48px;
-    font-family: Roboto Mono,monospace;
-    /* top: 15%; */
-}
-.loader {
-    border: 5px solid;
-}
-.table_container {
-    display: flex;
-    justify-content: center;
-}
+
+
