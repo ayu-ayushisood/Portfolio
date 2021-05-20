@@ -1,2 +1,2 @@
 ### PWA 
-- Enabled offline chaching
+- Enabled offline caching
