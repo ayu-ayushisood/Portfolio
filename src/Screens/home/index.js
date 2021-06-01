@@ -1,17 +1,19 @@
 import React from 'react';
+
+import Experience from '../experience'
+import Landing from '../landing'
+import Work from '../work'
+import Skills from '../skills'
+
 import './style.css';
 
 const Home = () => {
     return (
         <div className="home">
-            <div className="left-section">
-                <h1>Hello!</h1>
-                <h2>I'm Ayushi Sood</h2>
-                <h3>Frontend Developer - Web App and Mobile App Developer</h3>
-            </div>
-            <div className="right-section">
-
-            </div>
+            <Landing />
+            <Experience />
+            <Skills />
+            <Work />
         </div>
     );
 }
