@@ -1,8 +1,12 @@
+:root {
+    --blue: #3C465F;
+    --yellow: #FFB038;
+    --fullwidth: 100%;
+}
 .main_app_container {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #303030;
 }
 
 
