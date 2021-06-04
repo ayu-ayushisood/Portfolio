@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Img from '../../assets/images/ayushi.png'
+import {Link} from 'react-router-dom'
 
 import Navbar from 'react-bootstrap/Navbar'
 
@@ -10,10 +11,10 @@ const Landing = () => {
             <div className="top-container">
                 <div className="header-nav">
                     <Navbar expand="lg">
-                        <Navbar.Brand href="#experience">Experience</Navbar.Brand>
-                        <Navbar.Brand href="#experience">Skills</Navbar.Brand>
-                        <Navbar.Brand href="#experience">Work</Navbar.Brand>
-                        <Navbar.Brand href="#experience">Download Resume</Navbar.Brand>
+                        <Link to="/experience"><Navbar.Brand>Experience</Navbar.Brand></Link>
+                        <Link to="/skills"><Navbar.Brand>Skills</Navbar.Brand></Link>
+                        <Link to="/work"><Navbar.Brand>Work</Navbar.Brand></Link>
+                        <Navbar.Brand>Download Resume</Navbar.Brand>
                     </Navbar>
                 </div>
                 <div className="top-section">
