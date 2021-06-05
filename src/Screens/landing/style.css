@@ -83,3 +83,14 @@
     font-weight: bold;
 }
 
+triangle-container {
+    width: 80%;
+}
+
+.triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 45px solid var(--themeBlue);
+    border-left: 100px solid transparent;
+  }
+  

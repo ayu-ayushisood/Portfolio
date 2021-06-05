@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Img from '../../assets/images/ayushi.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import Navbar from 'react-bootstrap/Navbar'
 
@@ -39,6 +39,8 @@ const Landing = () => {
                 <div className="about-container">
                     <p>Creative Frontend Developer with over 3 years of experience using JavaScript and its frameworks and libraries to build all aspects of the user experience and user interface for client ready products. Specializes in ReactJs and Redux to build well integrated web apps.</p>
                 </div>
+                <div className="triangle-container"><div className='triangle-topright'></div></div>
+
             </div>
         </>
     );
