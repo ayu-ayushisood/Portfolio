@@ -78,7 +78,11 @@
     background-color: var(--themeYellow) !important;
 }
 
-.navbar-brand:hover {
+.nav-link a{
+    color: black !important;
+}
+
+.nav-item a:hover {
     color: var(--themeRed) !important;
     font-weight: bold;
 }

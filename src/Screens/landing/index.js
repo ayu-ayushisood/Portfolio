@@ -4,6 +4,7 @@ import Img from '../../assets/images/ayushi.png'
 import { Link } from 'react-router-dom'
 
 import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav';
 
 const Landing = () => {
     return (
@@ -11,10 +12,30 @@ const Landing = () => {
             <div className="top-container">
                 <div className="header-nav">
                     <Navbar expand="lg">
-                        <Link to="/experience"><Navbar.Brand>Experience</Navbar.Brand></Link>
-                        <Link to="/skills"><Navbar.Brand>Skills</Navbar.Brand></Link>
-                        <Link to="/work"><Navbar.Brand>Work</Navbar.Brand></Link>
-                        <Navbar.Brand>Download Resume</Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav" className="reverse-row-nav" >
+                            <Nav>
+                                <Nav.Item>
+                                    <Nav.Link>
+                                        <Link to="/experience">Experience</Link>
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link>
+                                        <Link to="/skills">Skills</Link>
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link>
+                                        <Link to="/work">Work</Link>
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link>Download Resume</Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                        </Navbar.Collapse>
+
                     </Navbar>
                 </div>
                 <div className="top-section">
