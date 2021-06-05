@@ -11,9 +11,9 @@ const Home = () => {
     return (
         <div className="home">
             <Landing />
-            <Experience />
+            {/* <Experience />
             <Skills />
-            <Work />
+            <Work /> */}
         </div>
     );
 }

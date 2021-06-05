@@ -1,12 +1,24 @@
 :root {
-    --blue: #3C465F;
-    --yellow: #FFB038;
+    --themeBlue: #3C465F;
+    --themeYellow: #FFB038;
+    --themeRed: #AB4C4C;
     --fullwidth: 100%;
 }
 .main_app_container {
     height: 100%;
     width: 100%;
     position: absolute;
+    font-family: 'Maven-pro', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Maven-pro";
+    src: url("./assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Maven-pro-bold";
+    src: url("./assets/fonts/Maven_Pro/static/MavenPro-Bold.ttf");
 }
 
 
