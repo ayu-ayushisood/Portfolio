@@ -3,7 +3,6 @@ import Home from './Screens/home'
 import Experience from './Screens/experience';
 import Work from './Screens/work';
 import Skills from './Screens/skills';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
