@@ -8,22 +8,17 @@ import { Call, LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <Link to="/" className="to-home">Ayushi Sood</Link>
-            <div className="contact-container">
-                <Mail
-                    height="25px"
-                    width="25px"
-                />
-                <div className="email">sood.ayushi30@gmail.com</div>
+            <div className="flex-container">
+                <Link to="/" className="to-home">Ayushi Sood</Link>
+                <div className="contact-container">
+                    <Mail
+                        height="25px"
+                        width="25px"
+                    />
+                    <div className="email">sood.ayushi30@gmail.com</div>
+                </div>
+                <div className="separator" />
             </div>
-            <div className="contact-container">
-                <Call
-                    height="25px"
-                    width="25px"
-                />
-                <div className="mobile">+91-9466460493</div>
-            </div>
-            <hr />
             <Navbar expand="lg">
                 <Nav className="flex-column">
                     <Nav.Item>
