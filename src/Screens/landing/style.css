@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 22em;
+    height: 42vh;
 }
 
 .top-subsection {
@@ -50,7 +50,7 @@
     background-color: white;
     height: 240px;
     width: 240px;
-    border-radius: 120px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,13 +78,18 @@
     background-color: var(--themeYellow) !important;
 }
 
+.nav-link {
+    font-size: 1.3em;
+}
+
 .nav-link a{
-    color: black !important;
+    color: black;
 }
 
 .nav-item a:hover {
     color: var(--themeRed) !important;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .triangle-container {
@@ -96,5 +101,51 @@
     height: 0;
     border-top: 45px solid var(--themeBlue);
     border-left: 100px solid transparent;
-  }
+}
+
+/* for large screens like monitors */
+@media only screen and (min-width: 1600px) {
+    .top-section {
+        height: 56vh;
+    }
+    .image-container {
+        height: 500px;
+        width: 500px;
+        margin-top: -16em;
+    }
+    .profile-pic {
+        height: 416px;
+        width: 417px;
+    }
+    .name {
+        font-size: 4em;
+    }
+    .nav-link {
+        font-size: 2em;
+    }
+}
+
+/* for smaller mobile devices */
+@media only screen and (max-width: 600px) {
+    .name-container {
+        border: 8px solid var(--themeBlue);
+    }
+    .name {
+        font-size: 2em;
+    }
+    .about-container {
+        font-size: 1.2em;
+    }
+    .headline {
+        margin-top: 1em;
+    }
+    .headline h2 {
+        font-size: 1.2rem
+    }
+    .triangle-topright {
+        border-top: 25px solid var(--themeBlue);
+        border-left: 85px solid transparent;
+    }
+}
+
   

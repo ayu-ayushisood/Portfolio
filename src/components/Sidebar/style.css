@@ -1,0 +1,54 @@
+.sidebar {
+    background-color: var(--themeYellow);
+    height: 100vh;
+    width: 23em;
+    padding: 3em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.to-home {
+    color: var(--themeBlue);
+    font-size: 2.2em;
+    font-family: 'Maven-pro-bold';
+}
+
+.to-home:hover {
+    text-decoration: none;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected {
+    font-weight: bold;
+    color: var(--themeRed) !important;
+}
+
+.sidebar .nav-item {
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.separator {
+    border-bottom: 1px solid #3C465F;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 9em;
+}
