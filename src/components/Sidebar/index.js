@@ -13,6 +13,7 @@ const Sidebar = () => {
                 <Link to="/" className="to-home">
                     <img src={logo} className="logo" />
                 </Link>
+                <div className="separator"/>
             </div>
             <Navbar expand="lg">
                 <Nav className="flex-column">
