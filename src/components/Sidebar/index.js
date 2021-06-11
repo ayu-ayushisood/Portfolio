@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../../assets/videos/logo.gif';
 import { LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from 'react-ionicons'
+import * as CONSTANTS from '../../constants';
 
 const Sidebar = () => {
     return (
@@ -38,17 +39,19 @@ const Sidebar = () => {
                 </Nav>
             </Navbar>
             <div className="social-icons">
-                <a href="https://github.com/ayu-ayushisood" target="_blank">
+                <a href={CONSTANTS.GITHUB_LINK} rel="noreferrer" target="_blank">
                     <LogoGithub className="icons-style" />
                 </a>
-                <a href="https://www.linkedin.com/in/ayushi-sood" target="_blank">
+                <a href={CONSTANTS.LINKEDIN_LINK} rel="noreferrer" target="_blank">
                     <LogoLinkedin className="icons-style" />
                 </a>
-                <a href="mailto:sood.ayushi30@gmail.com"><Mail className="icons-style"/></a>
-                <a href="https://www.instagram.com/ayushi_doodles" target="_blank">
-                    <LogoInstagram  className="icons-style" />
+                <a href={CONSTANTS.MAIL_TO} rel="noreferrer">
+                    <Mail className="icons-style"/>
                 </a>
-                <a href="https://www.behance.net/soodayushia2b3" target="_blank">
+                <a href={CONSTANTS.INSTAGRAM_LINK} rel="noreferrer" target="_blank">
+                    <LogoInstagram className="icons-style" />
+                </a>
+                <a href={CONSTANTS.BEHANCE_LINK} rel="noreferrer" target="_blank">
                     <LogoBehance className="icons-style" />
                 </a>
             </div>
