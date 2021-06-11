@@ -86,7 +86,7 @@
 }
 
 .nav-item a:hover {
-    color: var(--themeRed) !important;
+    color: var(--themePink) !important;
     font-weight: bold;
     text-decoration: none;
 }

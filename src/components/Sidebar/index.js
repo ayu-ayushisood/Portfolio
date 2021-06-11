@@ -13,7 +13,7 @@ const Sidebar = () => {
                 <Link to="/" className="to-home">
                     <img src={logo} className="logo" />
                 </Link>
-                <div className="separator"/>
+                <div className="separator" />
             </div>
             <Navbar expand="lg">
                 <Nav className="flex-column">
@@ -38,26 +38,19 @@ const Sidebar = () => {
                 </Nav>
             </Navbar>
             <div className="social-icons">
-                <LogoGithub
-                    height="25px"
-                    width="25px"
-                />
-                <LogoLinkedin
-                    height="25px"
-                    width="25px"
-                />
-                <Mail
-                    height="25px"
-                    width="25px"
-                />
-                <LogoInstagram
-                    height="25px"
-                    width="25px"
-                />
-                <LogoBehance
-                    height="25px"
-                    width="25px"
-                />
+                <a href="https://github.com/ayu-ayushisood" target="_blank">
+                    <LogoGithub className="icons-style" />
+                </a>
+                <a href="https://www.linkedin.com/in/ayushi-sood" target="_blank">
+                    <LogoLinkedin className="icons-style" />
+                </a>
+                <a href="mailto:sood.ayushi30@gmail.com"><Mail className="icons-style"/></a>
+                <a href="https://www.instagram.com/ayushi_doodles" target="_blank">
+                    <LogoInstagram  className="icons-style" />
+                </a>
+                <a href="https://www.behance.net/soodayushia2b3" target="_blank">
+                    <LogoBehance className="icons-style" />
+                </a>
             </div>
 
         </div>
