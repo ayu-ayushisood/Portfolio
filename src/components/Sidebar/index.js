@@ -3,20 +3,17 @@ import './style.css'
 import { Link, NavLink } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Call, LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from 'react-ionicons'
+import logo from '../../assets/videos/logo.gif';
+import { LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from 'react-ionicons'
+import * as CONSTANTS from '../../constants';
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="flex-container">
-                <Link to="/" className="to-home">Ayushi Sood</Link>
-                <div className="contact-container">
-                    <Mail
-                        height="25px"
-                        width="25px"
-                    />
-                    <div className="email">sood.ayushi30@gmail.com</div>
-                </div>
+                <Link to="/" className="to-home">
+                    <img src={logo} className="logo" />
+                </Link>
                 <div className="separator" />
             </div>
             <Navbar expand="lg">
@@ -42,26 +39,21 @@ const Sidebar = () => {
                 </Nav>
             </Navbar>
             <div className="social-icons">
-                <LogoGithub
-                    height="25px"
-                    width="25px"
-                />
-                <LogoLinkedin
-                    height="25px"
-                    width="25px"
-                />
-                <Mail
-                    height="25px"
-                    width="25px"
-                />
-                <LogoInstagram
-                    height="25px"
-                    width="25px"
-                />
-                <LogoBehance
-                    height="25px"
-                    width="25px"
-                />
+                <a href={CONSTANTS.GITHUB_LINK} rel="noreferrer" target="_blank">
+                    <LogoGithub className="icons-style" />
+                </a>
+                <a href={CONSTANTS.LINKEDIN_LINK} rel="noreferrer" target="_blank">
+                    <LogoLinkedin className="icons-style" />
+                </a>
+                <a href={CONSTANTS.MAIL_TO} rel="noreferrer">
+                    <Mail className="icons-style"/>
+                </a>
+                <a href={CONSTANTS.INSTAGRAM_LINK} rel="noreferrer" target="_blank">
+                    <LogoInstagram className="icons-style" />
+                </a>
+                <a href={CONSTANTS.BEHANCE_LINK} rel="noreferrer" target="_blank">
+                    <LogoBehance className="icons-style" />
+                </a>
             </div>
 
         </div>

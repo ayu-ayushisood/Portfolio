@@ -2,12 +2,15 @@
     background-color: var(--themeYellow);
     height: 100vh;
     width: 23em;
-    padding: 3em 1em 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.sidebar .navbar {
+    margin-top: 5em;
+}
 .to-home {
     color: var(--themeBlue);
     font-size: 2.2em;
@@ -16,6 +19,11 @@
 
 .to-home:hover {
     text-decoration: none;
+}
+
+.logo {
+    height: 7em;
+    width: 7em;
 }
 
 .contact-container {
@@ -30,9 +38,14 @@
     justify-content: space-between;
 }
 
+.icons-style svg{
+    height: 25px !important;
+    width: 25px !important;
+}
+
 .selected {
     font-weight: bold;
-    color: var(--themeRed) !important;
+    color: var(--themePink) !important;
 }
 
 .sidebar .nav-item {
@@ -43,6 +56,7 @@
 .separator {
     border-bottom: 1px solid #3C465F;
     width: 100%;
+    margin-top: 0.8em;
 }
 
 .flex-container {

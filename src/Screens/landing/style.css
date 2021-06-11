@@ -42,7 +42,6 @@
 }
 
 .headline {
-    margin-top: 1.5em;
     color: var(--themeBlue);
     text-align: center;
 }
@@ -87,7 +86,7 @@
 }
 
 .nav-item a:hover {
-    color: var(--themeRed) !important;
+    color: var(--themePink) !important;
     font-weight: bold;
     text-decoration: none;
 }
@@ -122,6 +121,9 @@
     }
     .nav-link {
         font-size: 2em;
+    }
+    .headline {
+        margin-top: 1.5em;
     }
 }
 
