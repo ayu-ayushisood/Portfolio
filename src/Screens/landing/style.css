@@ -42,7 +42,6 @@
 }
 
 .headline {
-    margin-top: 1.5em;
     color: var(--themeBlue);
     text-align: center;
 }
@@ -122,6 +121,9 @@
     }
     .nav-link {
         font-size: 2em;
+    }
+    .headline {
+        margin-top: 1.5em;
     }
 }
 

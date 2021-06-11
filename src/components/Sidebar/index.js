@@ -3,21 +3,16 @@ import './style.css'
 import { Link, NavLink } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Call, LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from 'react-ionicons'
+import logo from '../../assets/videos/logo.gif';
+import { LogoGithub, LogoLinkedin, Mail, LogoBehance, LogoInstagram } from 'react-ionicons'
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="flex-container">
-                <Link to="/" className="to-home">Ayushi Sood</Link>
-                <div className="contact-container">
-                    <Mail
-                        height="25px"
-                        width="25px"
-                    />
-                    <div className="email">sood.ayushi30@gmail.com</div>
-                </div>
-                <div className="separator" />
+                <Link to="/" className="to-home">
+                    <img src={logo} className="logo" />
+                </Link>
             </div>
             <Navbar expand="lg">
                 <Nav className="flex-column">

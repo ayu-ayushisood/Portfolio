@@ -2,12 +2,15 @@
     background-color: var(--themeYellow);
     height: 100vh;
     width: 23em;
-    padding: 3em 1em 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.sidebar .navbar {
+    margin-top: 3em;
+}
 .to-home {
     color: var(--themeBlue);
     font-size: 2.2em;
@@ -16,6 +19,11 @@
 
 .to-home:hover {
     text-decoration: none;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
 }
 
 .contact-container {
