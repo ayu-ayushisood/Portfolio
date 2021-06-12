@@ -9,21 +9,21 @@
 }
 
 .sidebar .navbar {
-    margin-top: 5em;
+    /* margin-top: 5em; */
 }
-.to-home {
+/* .to-home {
     color: var(--themeBlue);
     font-size: 2.2em;
     font-family: 'Maven-pro-bold';
-}
+} */
 
 .to-home:hover {
     text-decoration: none;
 }
 
 .logo {
-    height: 7em;
-    width: 7em;
+    height: 13em;
+    width: 13em;
 }
 
 .contact-container {
@@ -64,5 +64,22 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 9em;
+    /* height: 9em; */
+}
+
+/* for phones and tabs */
+@media only screen and (max-width: 1079px) {
+    .sidebar {
+        /* background-color: transparent; */
+        height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+    .sidebar .nav-item {
+        padding: 0.5em 0;
+    }
+    .logo {
+        height: 9em;
+        width: 9em;
+    }
 }

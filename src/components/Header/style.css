@@ -5,8 +5,13 @@
     margin: auto;
     margin-top: 30px;
     font-family: 'Maven-pro-bold';
+    font-size: 2em;
+    color: var(--themeBlue);
 }
 
-h1 {
-    color: var(--themeBlue);
+/* for smaller mobile devices */
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 1.5em;
+    }
 }

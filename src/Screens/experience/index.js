@@ -5,7 +5,7 @@ import Heading from '../../components/Header'
 
 const Experience = () => {
     return (
-        <div className="experience">
+        <div className="secondary-screens-container">
            <Sidebar />
             <div className="right-section">
                 <Heading 
