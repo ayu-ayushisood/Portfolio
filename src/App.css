@@ -12,7 +12,15 @@
     font-family: 'Maven-pro', Arial, sans-serif;
 }
 
-
+.secondary-screens-container {
+    display: flex;
+}
+/* for phones and tabs */
+@media only screen and (max-width: 1079px) { 
+    .secondary-screens-container {
+        display: block;
+    }
+}
 @font-face {
     font-family: "Maven-pro";
     src: url("./assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");

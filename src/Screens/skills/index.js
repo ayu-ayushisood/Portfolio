@@ -4,7 +4,7 @@ import Sidebar from '../../components/Sidebar'
 import Heading from '../../components/Header'
 const Skills = () => {
     return (
-        <div className="skills">
+        <div className="secondary-screens-container">
             <Sidebar />
             <div className="right-section">
                 <Heading 

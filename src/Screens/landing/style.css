@@ -74,7 +74,7 @@
 }
 
 .navbar {
-    background-color: var(--themeYellow) !important;
+    /* background-color: var(--themeYellow) !important; */
 }
 
 .nav-link {
@@ -127,8 +127,34 @@
     }
 }
 
+/* for very smaller mobile devices like iphone SE and iphone 5*/
+@media only screen and (max-width: 350px) {
+    .name {
+        font-size: 1em;
+    }
+    .headline {
+        margin-top: 1.5em;
+    }
+
+    .headline h2 {
+        font-size: 0.8em
+    }
+    .image-container  {
+        margin-top: -5em;
+        height: 10em;
+        width: 10em;
+    }
+    .profile-pic {
+        height: 8em;
+        width: 8em;
+    }
+    .about-container {
+        font-size: 1em;
+    }
+}
+
 /* for smaller mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 351px) and (max-width: 600px) {
     .name-container {
         border: 8px solid var(--themeBlue);
     }
@@ -147,6 +173,15 @@
     .triangle-topright {
         border-top: 25px solid var(--themeBlue);
         border-left: 85px solid transparent;
+    }
+    .image-container  {
+        margin-top: -6em;
+        height: 11em;
+        width: 11em;
+    }
+    .profile-pic {
+        height: 9em;
+        width: 9em;
     }
 }
 
