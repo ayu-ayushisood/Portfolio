@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Magic EdTech",
+            "place": "Noida, India",
+            "logo": "https://ik.imagekit.io/zw5zu6q4kxa/magic_4d1UjcP2s.png",
+            "title": "Software Engineer",
+            "heading": "Sr. Associate (September 2020 - Present)",
+            "roles": [
+                "Working extensively in creating web based ed-gaming platforms in Reactjs.", "Leading the tech team", "Responsible for the agile development", "Working on building future proof e-learning games from kindergaten to 8th grade students.", "Extensively working with animations and overall state management."
+            ],
+            "milestone": {}
+        },
+        {
+            "id": 2,
+            "name": "KarmaCircles",
+            "place": "New Delhi, India",
+            "logo": "https://ik.imagekit.io/zw5zu6q4kxa/kc__mm0Lv7yN.png",
+            "title": "Software Engineer",
+            "heading": "Frontend Engineer (July 2018 - September 2020)",
+            "roles": [
+                "Worked as a Web dev and Mobile app dev.", "Worked with Jquery, Angularjs and Reactjs.", "Worked with NoSQL databases to manage data.", "Worked with REST APIs.", "Integrating Google analytics and Firebase.", "Revamp the whole Web app and Mobile app for iOS and Android.", "Integrating Notifications through FCM and APN.", "Managing signed and deployment builds."
+            ],
+            "milestone": {
+                "id": 1,
+                "title": "Software Engineer Intern",
+                "heading": "Frontend Engineer (January 2018 - June 2018)",
+                "place": "New Delhi, India",
+                "roles": [
+                    "Worked with HTML and CSS.", "Created websites from scratch.", "Did bug fixing in existing product.", "Did manual testing of all platforms, web, iOS and android.", "Created HTML templates for emails."
+                ]
+            }
+        }
+    ]
+}
