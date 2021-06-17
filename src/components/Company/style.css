@@ -1,0 +1,17 @@
+.company-info {
+    display: flex;
+    margin-top: 2em;
+}
+.company-info .details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.company-info .details-section .title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.company-info .details-section .roles {
+    font-size: 1.1em;
+    font-weight: bold;
+}
