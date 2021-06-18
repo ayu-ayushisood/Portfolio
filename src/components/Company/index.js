@@ -6,7 +6,7 @@ const Company = (props) => {
     const isMilestone = Object.entries(props.milestone).length > 0;
     console.log("isMilestone?", isMilestone);
 
-    const getMilestoneRoles = (roles) => {
+    const getMilestoneResponsibilities = (roles) => {
         let roleArr = roles.map( (role, ind) =>
             <ul key={ind}>
                 <li>{role}</li>
@@ -31,7 +31,7 @@ const Company = (props) => {
                         <div className="title">{props.milestone.title}</div>
                         <div>{props.milestone.heading}</div>
                         <div className="roles">Roles and Responsibilities</div>
-                        {getMilestoneRoles(props.milestone.roles)}
+                        {getMilestoneResponsibilities(props.milestone.roles)}
                     </>
                 }
             </div>

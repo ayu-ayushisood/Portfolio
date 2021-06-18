@@ -7,7 +7,7 @@ import experienceData from '../../common/experienceData.json';
 
 const Experience = () => {
     
-    const getRoles = (roles) => {
+    const getCompanyResponsibilities = (roles) => {
         let roleArr = roles.map( (role, ind) =>
             <ul key={ind}>
                 <li>{role}</li>
@@ -24,7 +24,7 @@ const Experience = () => {
                 title= {company.title}
                 subtitle= {company.heading}
                 companyName= {company.name}
-                roles= {getRoles(company.roles)}
+                roles= {getCompanyResponsibilities(company.roles)}
                 milestone= {company.milestone}
             />
         )
